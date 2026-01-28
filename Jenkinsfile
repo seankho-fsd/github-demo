@@ -10,7 +10,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t seankho-fsd/github-demo .'
+                bat 'docker build -t seankst/github-demo .'
             }
         }
 
